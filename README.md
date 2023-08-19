@@ -10,7 +10,7 @@
 
 - 💬 Ask me about **AI Trends**
 
-- ⚡ Fun fact **"I'm an avid explorer of local cuisine. Whenever I travel to a new city, I make it a point to try out the most unique and authentic dishes the area has to offer. From street food stalls to hidden gems, I believe that exploring a culture's cuisine is a delicious way to connect with the world."**
+- ⚡ Fun fact **"I'm an avid explorer of local cuisine. Whenever I travel to a new city, I make it a point to try out the most unique and authentic dishes the area has to offer."**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
