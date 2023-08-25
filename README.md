@@ -1,4 +1,4 @@
-
+![logo](https://github.com/Bhavesh-Sony/Bhavesh-Sony/blob/main/Bhavesh%20soni.png)
 <h1 align="center">Hi 👋, I'm Bhavesh Soni</h1>
 <h3 align="center">A Data Scientist. I am passionate about turning raw data into actionable insights that drive business value.</h3>
 
