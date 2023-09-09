@@ -1,4 +1,7 @@
-![logo](https://github.com/Bhavesh-Sony/Bhavesh-Sony/b<h1 align="center">Hi 👋, I'm Bhavesh Soni</h1>
+![logo](https://github.com/Bhavesh-Sony/Bhavesh-Sony/blob/main/Bhavesh%20soni.png)
+
+<h1 align="center">Hi 👋, I'm Bhavesh Soni</h1>
+
 <h3 align="center">A Data Scientist. I am passionate about turning raw data into actionable insights that drive business value.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=bhavesh-sony&label=Profile%20views&color=0e75b6&style=flat" alt="bhavesh-sony" /> </p>
