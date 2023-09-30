@@ -12,7 +12,7 @@
 
 - 📫 How to reach me **bhaveshsoni1102@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/14D2GWO-2aXbblLsFXOLcXRHRYlyGqp28/view?usp=sharing](https://drive.google.com/file/d/14D2GWO-2aXbblLsFXOLcXRHRYlyGqp28/view?usp=sharing)
+- 📄 Know about my experiences [here](https://drive.google.com/file/d/14D2GWO-2aXbblLsFXOLcXRHRYlyGqp28/view?usp=sharing)
 
 - ⚡ Fun fact **"I'm an avid explorer of local cuisine. Whenever I travel to a new city, I make it a point to try out the most unique and authentic dishes the area has to offer. From street food stalls to hidden gems, I believe that exploring a culture's cuisine is a delicious way to connect with the world."**
 
