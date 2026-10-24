@@ -1,30 +1,73 @@
-![logo](https://github.com/Bhavesh-Sony/Bhavesh-Sony/blob/main/Bhavesh%20soni.png)
+# Bhavesh Soni
 
-<h1 align="center">Hi 👋, I'm Bhavesh Soni</h1>
+Lead AI Engineer designing production AI systems. Targeting AI Architect roles.
 
-<h3 align="center">A Data Scientist. I am passionate about turning raw data into actionable insights that drive business value.</h3>
+Focus: agentic workflows on a shared attribute taxonomy, multimodal extraction, and evaluation before release.
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=bhavesh-sony&label=Profile%20views&color=0e75b6&style=flat" alt="bhavesh-sony" /> </p>
+**Bengaluru · Tibil Solutions · [LinkedIn](https://www.linkedin.com/in/bhaveshsoni1) · bhaveshsony19@gmail.com**
 
-- 🌱 I’m currently learning **Transformers, GANs**
+## Systems
 
-- 💬 Ask me about **AI Trends**
+### 1. Design–marketing flywheel
 
-- 📫 How to reach me **bhaveshsoni1102@gmail.com**
+Four stages on one attribute taxonomy: trend scoring, combination analytics, campaign brief, learning loop. A designer review gate sits in front of every released brief.
 
-- 📄 Know about my experiences [here](https://drive.google.com/file/d/14D2GWO-2aXbblLsFXOLcXRHRYlyGqp28/view?usp=sharing)
+[design-marketing-flywheel](https://github.com/Bhavesh-Sony/design-marketing-flywheel)
 
-- ⚡ Fun fact **"I'm an avid explorer of local cuisine. Whenever I travel to a new city, I make it a point to try out the most unique and authentic dishes the area has to offer. From street food stalls to hidden gems, I believe that exploring a culture's cuisine is a delicious way to connect with the world."**
+```mermaid
+flowchart LR
+  taxonomy[SharedTaxonomy]
+  trend[TrendScoring]
+  analytics[CombinationAnalytics]
+  brief[CampaignBrief]
+  gate[DesignerReviewGate]
+  learn[LearningLoop]
+  taxonomy --> trend --> analytics --> brief --> gate
+  gate --> learn --> taxonomy
+```
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/bhaveshsoni1/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/bhaveshsoni1/" height="30" width="40" /></a>
-</p>
+### 2. Multimodal attribute pipeline
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+Ingest, pose, mask, structure, color, then a taxonomy-constrained language model. Low-confidence rows are flagged. Marketplace values live in config. Batch, not real time.
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=bhavesh-sony&show_icons=true&locale=en&layout=compact" alt="bhavesh-sony" /></p>
+[multimodal-attribute-pipeline](https://github.com/Bhavesh-Sony/multimodal-attribute-pipeline)
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=bhavesh-sony&show_icons=true&locale=en" alt="bhavesh-sony" /></p>
+```mermaid
+flowchart LR
+  ingest[ImageIngest]
+  pose[PoseClassification]
+  mask[ProductMask]
+  cv[YOLOAndColor]
+  llm[TaxonomyConstrainedLLM]
+  flag[ConfidenceFlag]
+  out[MarketplaceJSON]
+  ingest --> pose --> mask --> cv --> llm --> flag --> out
+```
 
+### 3. Multilingual call intelligence
+
+Speech to text, dialogue structuring, few-shot intents, FastAPI readout. Built for ten languages without a labeled training set.
+
+[multilingual-call-intelligence](https://github.com/Bhavesh-Sony/multilingual-call-intelligence)
+
+```mermaid
+flowchart LR
+  audio[CallAudio]
+  stt[SpeechToText]
+  structure[DialogueStructuring]
+  intent[FewShotIntents]
+  api[FastAPIReadout]
+  audio --> stt --> structure --> intent --> api
+```
+
+## Stack
+
+Python · LangGraph · LangChain · GPT-4o · Gemini · YOLO · Apache Spark · Databricks · FastAPI
+
+## Earlier systems
+
+Forecasting, document Q&A, construction OCR, and detection experiments stay in the older repositories. They are not pinned.
+
+## Contact
+
+bhaveshsony19@gmail.com · [linkedin.com/in/bhaveshsoni1](https://www.linkedin.com/in/bhaveshsoni1)
